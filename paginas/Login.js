@@ -4,6 +4,9 @@ import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
 
 export default function Login() {
+    const casdastrar= ()=>{
+        navigator.navigate('Cadastro')
+    }
   return (
     <View style={styles.container}>
       <Text h3 style={styles.titulo}>Login</Text>
@@ -28,7 +31,18 @@ export default function Login() {
                 color: 'white',
               }}
               />
-
+<Button
+              title="Cadastre-se"
+              icon={{
+                name: 'check',
+                type: 'font-awesome',
+                size: 15,
+                color: 'white',
+             
+              }}
+              onPress={()=>casdatrar()}
+              />
+                
     </View>
   );
 }
