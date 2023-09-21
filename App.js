@@ -1,6 +1,7 @@
 import { Text } from 'react-native-elements';
 import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
+import styles  from './estilo/style';
 
 export default function App() {
   return (
@@ -8,12 +9,12 @@ export default function App() {
       <Text h3>Login</Text>
     <Input 
       placeholder='E-MAIL'
-      leftIcon={{type:'font-awesome', name: 'envelope'}}
+      leftIcon={{type:'font-awesome', name: 'envelope', color:'white'}}
       keyboordType="email-address"
     />
      <Input 
       placeholder='Senha'
-      leftIcon={{type:'font-awesome', name: 'lock'}}
+      leftIcon={{type:'font-awesome', name: 'lock', color:'white'}}
       secureTextEntry={true}
     />
 
@@ -31,11 +32,4 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
