@@ -8,8 +8,13 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
      
     },
-    fontStyle:{
-        color:'white',
+    titulo:
+    {
+      color:'white',
+    },
+    Input:{
+      color:'white',
     }
+  
   });
   export default styles
