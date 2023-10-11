@@ -3,6 +3,7 @@ import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import styles  from './estilo/style';
 import Login from './paginas/Login';
+import Cadastro from './paginas/Cadastro';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import Cadastro from './paginas/Cadastro';

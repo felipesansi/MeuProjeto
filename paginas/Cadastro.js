@@ -2,8 +2,13 @@ import { Text } from 'react-native-elements';
 import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
+import { useState } from 'react';
 
 export default function Cadastro(navigation) {
+
+
+  const [cpf, Setcpf] = useState(null);
+  const [erroCpf,SetErroCpf]= useState(null);
   return (
     <View style={styles.container}>
       <Text h3 style={styles.titulo}>Cadastro</Text>

@@ -3,7 +3,7 @@ import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
 
-export default function Login() {
+export default function Login({navigation}) {
     const casdastrar= ()=>{
         navigator.navigate('Cadastro')
     }
