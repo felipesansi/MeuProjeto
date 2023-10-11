@@ -2,10 +2,11 @@ import { Text } from 'react-native-elements';
 import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
+import{TextInputMask}
 
 export default function Login({navigation}) {
     const casdastrar= ()=>{
-        navigator.navigate('Cadastro')
+        navigation.navigate('Cadastro')
     }
   return (
     <View style={styles.container}>
@@ -40,7 +41,7 @@ export default function Login({navigation}) {
                 color: 'white',
              
               }}
-              onPress={()=>casdatrar()}
+              onPress={()=>casdastrar()}
               />
                 
     </View>

@@ -4,7 +4,7 @@ import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
 import { useState } from 'react';
 
-export default function Cadastro(navigation) {
+export default function Cadastro({navigation}) {
 
 
   const [cpf, Setcpf] = useState(null);

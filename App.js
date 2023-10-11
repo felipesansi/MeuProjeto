@@ -6,7 +6,7 @@ import Login from './paginas/Login';
 import Cadastro from './paginas/Cadastro';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import Cadastro from './paginas/Cadastro';
+
 const Stack = createStackNavigator();
 
 function MyStack() {
