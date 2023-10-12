@@ -14,6 +14,19 @@ const styles = StyleSheet.create({
     },
     Input:{
       color:'white',
+    },
+    mask:{
+      color:'white',
+      borderBottomColor:'white',
+      borderBottomWidth:2,
+      borderStyle:'solid',
+      alignSelf:'flex-start'
+    },
+    containnermas:{
+      flexDirection:'row',
+marginLeft:5,
+marginRight:5,
+marginBottom:5
     }
   
   });

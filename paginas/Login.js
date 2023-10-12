@@ -2,7 +2,7 @@ import { Text } from 'react-native-elements';
 import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
-import{TextInputMask}
+
 
 export default function Login({navigation}) {
     const casdastrar= ()=>{
@@ -23,7 +23,7 @@ export default function Login({navigation}) {
       secureTextEntry={true}
     />
 
-<Button
+<Button style={styles.Button}
               title="ENTRAR"
               icon={{
                 name: 'check',
@@ -32,7 +32,7 @@ export default function Login({navigation}) {
                 color: 'white',
               }}
               />
-<Button
+<Button style={styles.Button}
               title="Cadastre-se"
               icon={{
                 name: 'check',

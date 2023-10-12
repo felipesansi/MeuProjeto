@@ -3,6 +3,7 @@ import { StyleSheet,  View } from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import styles  from '../estilo/style';
 import { useState } from 'react';
+import { TextInputMask } from 'react-native-masked-text'
 
 export default function Cadastro({navigation}) {
 
@@ -16,10 +17,20 @@ export default function Cadastro({navigation}) {
       placeholder='Nome'
      
     />
-     <Input style={styles.Input}
+  <View style ={styles.containnermask}>
+     <TextInputMask style={styles.mask}
       placeholder='CPF'
-     keyboardType='nuber-pad'
+     keyboardType='number-pad'
+     type={'cpf'}
+     returnKeyType='done'
+     value={cpf}
+     onChangeText={value =>{
+      Setcpf(value)
+
+     }}
+
     />
+    </View>
      <Input style={styles.Input}
       placeholder='Telefone'
      keyboardType='nuber-pad'
