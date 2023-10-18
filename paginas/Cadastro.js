@@ -42,13 +42,14 @@ export default function Cadastro({navigation}) {
      keyboardType='email-address'
     />
 
-<Button
+<Button 
               title="Salvar"
               icon={{
                 name: 'check',
                 type: 'font-awesome',
                 size: 15,
                 color: 'white',
+                
               }}
               />
 

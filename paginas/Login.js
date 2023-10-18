@@ -23,7 +23,7 @@ export default function Login({navigation}) {
       secureTextEntry={true}
     />
 
-<Button style={styles.Button}
+<Button 
               title="ENTRAR"
               icon={{
                 name: 'check',
@@ -32,7 +32,7 @@ export default function Login({navigation}) {
                 color: 'white',
               }}
               />
-<Button style={styles.Button}
+<Button 
               title="Cadastre-se"
               icon={{
                 name: 'check',

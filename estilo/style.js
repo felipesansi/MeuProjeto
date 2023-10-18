@@ -12,22 +12,31 @@ const styles = StyleSheet.create({
     {
       color:'white',
     },
-    Input:{
+    Input:
+    {
       color:'white',
     },
-    mask:{
+
+    mask:
+    {
       color:'white',
       borderBottomColor:'white',
       borderBottomWidth:2,
       borderStyle:'solid',
       alignSelf:'flex-start'
     },
-    containnermas:{
-      flexDirection:'row',
-marginLeft:5,
-marginRight:5,
-marginBottom:5
-    }
+
+    containnermas:
+    {
+    flexDirection:'row',
+    marginLeft:5,
+    marginRight:5,
+    marginBottom:5,
+
+    },
+ 
+    
+     
   
   });
   export default styles
